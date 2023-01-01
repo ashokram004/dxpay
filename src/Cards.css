@@ -1,0 +1,179 @@
+#cardsblock{
+    position: absolute;
+    background: whitesmoke;
+    background-size: 100% 100%;
+    height: 1000px;
+    width: 1940px;
+    top: 80px;
+    overflow-y:scroll;
+
+}
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 15px;
+  }
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #b68eff;
+    border-radius: 15px;
+  }
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(73, 0, 116);
+    border-radius: 15px;
+  }
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background:  rgb(65, 0, 102);
+    border-radius: 15px;
+  }
+::-webkit-scrollbar-corner {
+    background:  rgb(28, 0, 44);
+    border-radius: 15px;
+  }
+
+#topcards{
+    margin-top: 0px;
+    display: flex;
+    height: 450px;
+    background: rgb(74,9,93);
+    background: radial-gradient(circle, rgba(74,9,93,1) 0%, rgba(20,6,73,1) 100%);
+    overflow-x: scroll;
+    overflow: scroll;
+    padding-right: 50px;
+    
+}
+  
+.atmcard{
+    cursor: pointer;
+    background: url(images/blue2.jpg);
+    background-size: 100% 100%;
+    margin-top: 70px;
+    margin-left: 120px;
+    width: 360px !important;
+    height: 250px;
+    border: 0px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 5px rgb(22, 14, 58);
+    transition-property: top,left;
+    transition-duration: 500ms;
+}
+
+.atmcard h1{
+    margin-top:60px;
+    margin-left:125px;
+    color: yellow;
+    font-size: 40px;
+    
+}
+#acno,#acname,#date{
+    color: white;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+#acname{
+    margin-top: -40px;
+    font-size: 15px;
+    margin-right:290px;
+    
+}
+#date{
+    margin-left:223px;
+    margin-top:-50px;
+    display: inline-block;
+   
+    font-size: 15px;
+
+}
+
+.atmcard:hover {
+    transition: 200ms;
+    box-shadow: 6px 6px 5px 2px rgb(22, 14, 58);
+}
+
+#addform{
+    position: absolute;
+    left:700px;
+    top:250px;
+    width: 430px;
+    height: 400px;
+    background: rgb(74,9,93);
+    background: radial-gradient(circle, rgba(74,9,93,1) 0%, rgba(20,6,73,1) 100%);
+    border-radius: 30px;
+    border: 2px solid yellow;
+    visibility: hidden;
+}
+
+#addform input{
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 20px;
+    font: arial;
+    font-size: 25px;
+    background-color: azure;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#addform button{
+    margin-top: 50px;
+    margin-left: 90px;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    font-family: arial;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#addform button:hover{
+    transition: 0s;
+    border: 2px solid yellow;
+}
+
+#addform #cback{
+    display: inline-block;
+    margin-left:20px ;
+    width: 120px;
+}
+#cback:hover{
+    transition: none;
+}
+
+
+#bottomcards{
+    margin-top: 20px;
+    height: 430px;
+    background: rgb(74,9,93);
+    background: radial-gradient(circle, rgba(74,9,93,1) 0%, rgba(20,6,73,1) 100%);
+    padding-top: 50px;
+}
+
+
+#addcard{
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 600px;
+    color: white;
+}
+
+#imgadd{
+    cursor: pointer;
+    margin-left: 300px;
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: yellow;
+    background-image: url(images/plus.png);
+    background-size: 100% 100%;
+    box-shadow: 2px 2px 4px 3px rgb(110, 110, 0);
+}
+#addcard h3{
+    margin-left: 270px;
+}

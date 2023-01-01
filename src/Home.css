@@ -1,0 +1,479 @@
+#homeblock{
+    position: absolute;
+    background: whitesmoke;
+    background-size: 100% 100%;
+    height: 1000px;
+    width: 1940px;
+    top: 80px;
+    overflow-y:scroll;
+
+}
+
+  
+#card{
+    
+    height: 350px;
+    width: 1750px;
+    border-top:1px solid transparent;
+    background: rgb(74,9,93);
+    background: radial-gradient(circle, rgba(74,9,93,1) 0%, rgba(20,6,73,1) 100%);
+    background-size: 100% 100%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 3px rgb(70, 70, 70);
+    margin-left: 130px;
+    margin-top: 30px;
+    color: whitesmoke;
+    
+}
+
+#cardtitle{
+    margin-top:30px;
+    margin-left: 90px;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#botspace{
+    height: 140px;
+    width: 1750px;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+
+#card button{
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 90px;
+    font-size: 20px;
+    font-family: arial;
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    background-size: 60% 60%;
+    background-position-x: 30px;
+    background-position-y: 30px;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    transition: 300ms;
+    box-shadow: 4px 6px 3px 3px rgb(107, 107, 0);
+    border: none;
+    border-top: 1px solid transparent;
+   
+}
+
+#card button:hover{
+    box-shadow: -6px -4px 3px 3px rgb(107, 107, 0);
+}
+.card1 button b{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -50px;
+    color: white;
+    font-style: normal;
+    font-size: 18px;
+}
+.card1 #qrcode b{
+    margin-left: -55px ;
+}
+.card1 #checkbalance b{
+    margin-left: -60px ;
+}
+.card1 #banktransfer b{
+    margin-left: -55px ;
+}
+
+
+.card2 button b{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -40px;
+    color: white;
+    font-style: normal;
+    font-size: 18px;
+}
+.card2 #googlerec b{
+    margin-left: -50px ;
+}
+
+
+
+.card3 button b{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -23px;
+    color: white;
+    font-style: normal;
+    font-size: 18px;
+}
+.card3 #bus b{
+    margin-left: -18px ;
+}
+
+
+
+#wallet{
+    background-image: url(images/home/wallet.png);
+}
+#sendmoney{
+    background-image: url(images/home/sendmoney.png);
+}
+#qrcode{
+    background-image: url(images/home/qrcode.png);
+}
+#selftransfer{
+    background-image: url(images/home/selftransfer.png);
+}
+#banktransfer{
+    background-image: url(images/home/banktransfer.png);
+}
+#addaccount{
+    background-image: url(images/home/addbank.png);
+}
+#checkbalance{
+    background-image: url(images/home/checkbalance.png);
+}
+
+#mobilerec{
+    background-image: url(images/home/mobilerec.png);
+}
+#dthrec{
+    background-image: url(images/home/dth.png);
+}
+#fibernetrec{
+    background-image: url(images/home/fibernet.png);
+}
+#googlerec{
+    background-image: url(images/home/googleplay.png);
+}
+#billpay{
+    background-image: url(images/home/bill.png);
+}
+#gasbook{
+    background-image: url(images/home/gas.png);
+}
+#fasttagrec{
+    background-image: url(images/home/fasttag.png);
+}
+
+#movie{
+    background-image: url(images/home/movie.png);
+}
+#train{
+    background-image: url(images/home/train.png);
+}
+#bus{
+    background-image: url(images/home/bus.png);
+}
+#plane{
+    background-image: url(images/home/plane.png);
+}
+#cruise{
+    background-image: url(images/home/cruise.png);
+}
+#sports{
+    background-image: url(images/home/sports.png);
+}
+#events{
+    background-image: url(images/home/event.png);
+}
+
+
+
+
+
+
+
+
+#header{
+    padding-top: 20px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1920px;
+    height: 60px;
+    background: rgb(74,9,93);
+    background: radial-gradient(circle, rgba(74,9,93,1) 0%, rgba(20,6,73,1) 100%);
+    background-size: 100% 100%;
+    box-shadow: 0px 0px 10px 3px rgb(70, 70, 70);
+    z-index: 10001;
+}
+
+#header b {
+    margin-left: 50px;
+    margin-top: 0px;
+    color: navy;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    background-color: yellow;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+
+#nav-items{
+    margin-left: 50px;
+    margin-top: 0px;
+    font-size: 25px;
+    color: whitesmoke;
+    display: inline-block;
+}
+
+#profile{
+    position: absolute;
+    display: inline-block;
+    left: 1820px;
+    top: 13px;
+    height: 55px;
+    width: 55px;
+    border-radius: 27px;
+    background-color: white;
+    background-image: url(images/user.png);
+    background-size: 100% 100%;
+    overflow: hidden;
+    outline: black;
+    z-index: 12;
+}
+
+#profile:hover ~ #profilebox{
+    visibility: visible;
+    animation: popout 300ms;
+}
+
+
+#profile:hover ~ #profilebox h5{
+    visibility: visible;
+    animation: disp 200ms;
+}
+
+#profile:hover ~ #profilebox #btprof{
+    visibility: visible;
+    animation: disp 200ms;
+}
+
+#pname,#pid{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+#pic{
+    position: absolute;
+    left:30px;
+    top:30px;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    background-image: url(images/user.png);
+    background-size: 100% 100%;
+    overflow: hidden;
+    border-radius: 7px;
+}
+#pname{
+    margin-bottom: -38px;
+}
+
+#kyc{
+    margin-left: 55px;
+    font-size: 25px;
+    margin-top: -2px;
+}
+#profilebox{
+    position: absolute;
+    height: 220px;
+    width: 300px;
+    border-radius: 50px;
+    background:  rgb(255, 255, 20);
+    left: 1550px;
+    top:80px;
+    visibility: hidden;
+    transition: 100ms;
+    animation: none;
+    border: 5px solid black;
+}
+
+#btprof{
+    height: 50px;
+    width: 120px;
+    background: rgb(74,9,93);
+    background: radial-gradient(circle, rgba(74,9,93,1) 0%, rgba(20,6,73,1) 100%);
+    margin-top: -20px;
+    margin-left: 85px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+#profilebox:hover{
+    visibility: visible;
+    background:  rgb(255, 255, 20);
+}
+@keyframes popout {
+    0%{
+        left: 1800px;
+        top:50px;
+        height: 50px;
+        width: 50px;
+    }
+    100%{
+        left: 1550px;
+        top:80px;
+        height:220px;
+        width: 300px;
+    }
+}
+@keyframes disp {
+    0%{
+        visibility: hidden;
+    }
+    99%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+
+#sidebar{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 80px;
+    height: 100%;
+    transition:width 300ms;
+    background: rgb(74,9,93);
+    background: radial-gradient(circle, rgba(74,9,93,1) 0%, rgba(20,6,73,1) 100%);
+    overflow:hidden;
+    box-shadow: 0px 0px 3px 1px rgb(57, 56, 58);
+    z-index: 1000;
+
+}
+
+#sidebar:hover{
+    width: 300px;
+}
+
+
+#side-items{
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    margin-top: 80px;
+}
+
+#side-items li{
+    cursor: pointer;
+    height: 40px;
+    width: 280px;
+    margin-left: -40px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 2px;
+    display: flex;
+}
+#side-items li:hover{
+    background: rgba(102, 13, 102, 0.651);
+    background-size: 100% 100%;
+}
+#side-items b{
+    font-weight: 100;
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+#imghome,#imgtrans, #imgcards, #imgcrypto ,#imgreward, #imgloan , #imgassistant, #imgsettings {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background: aliceblue;
+    background-image: url(images/home.png);
+    background-size: 100% 100%;
+    border-radius: 25px;
+}
+
+#imgtrans{
+    background-image: url(images/transactions.png);
+}
+
+#imgcards{
+    background-image: url(images/card.png);
+}
+#imgloan{
+    background-image: url(images/loan.png);
+}
+#imgreward{
+    background-image: url(images/reward.png);
+}
+#imgcrypto{
+    background-image: url(images/crypto2.png);
+}
+#imgassistant{
+    background-image: url(images/assistant.png);
+}
+#imgsettings{
+    background-image: url(images/settings.png);
+}
+
+#side-items #sidebarspace{
+    height: 180px;
+}
+#side-items #sidebarspace:hover{
+    background:none;
+}
+
+#sendmoneyblock{
+    visibility: hidden;
+    background: rgb(74,9,93);
+    background: radial-gradient(circle, rgba(74,9,93,1) 0%, rgba(20,6,73,1) 100%);
+    height: 820px;
+    width: 1750px;
+    position: fixed;
+    left:130px;
+    top:110px;
+    z-index: 500;
+    border-radius: 50px;
+}
+
+#sendmoneybox{
+    margin-top: 160px;
+    margin-left: 600px;
+    height: 400px;
+    width: 500px;
+    background-color: yellow;
+    border-radius: 30px;
+}
+#sendmoneybox h1{
+    margin-top: 80px;
+    margin-left: 120px;
+}
+#sendmoneybox input{
+    width: 370px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 20px;
+    font: arial;
+    font-size: 25px;
+    background-color: azure;
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+#sendmoneybox button {
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 120px;
+    height: 50px;
+    font-size: 25px;
+    font-family: arial;
+    border-radius: 10px;
+    cursor: pointer;
+    background: rgb(74,9,93);
+    background: radial-gradient(circle, rgba(74,9,93,1) 0%, rgba(20,6,73,1) 100%);
+    color: white;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    
+
+    <title>Neo Bank</title>
+    <style>
+      body {
+        background-color: rgb(32, 0, 32);
+        overflow-y: hidden;
+        overflow-x: hidden;
+
+      }
+   
+
+      #totalbox{
+        position: absolute;
+        height: 99%;
+        width: 100%;
+        background: rgb(2,0,36);
+        background: linear-gradient(164deg, rgba(2,0,36,1) 0%, rgba(107,9,121,1) 100%, rgba(0,212,255,1) 100%);
+        background-size: 100% 125%;
+        border-radius: 50px;
+      }
+      #cover{
+        position: absolute;
+        height: 970px;
+        width: 50%;
+        background: url("pic3.jpg");
+        background-size: 100% 100%;
+        left: 960px;
+        top:0px;
+        transition: 500ms;
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px 10px rgb(1, 0, 32);
+      }
+      #notification{
+        position: absolute;
+        top:50px;
+        left:880px;
+        height: fit-content;
+        width: fit-content;
+        font-size: 20px;
+        padding: 20px;
+        background-color: rgb(255, 255, 74);
+        border-radius: 30px;
+        z-index: 12500;
+        visibility: hidden;
+        animation: none;
+      }
+
+      @keyframes notify {
+        0%{
+          visibility: visible;
+          opacity:0;
+        }
+        30%{
+          visibility: visible;
+          opacity: 1;
+        }
+        70%{
+          visibility: visible;
+          opacity: 1;
+        }
+        100%{
+          opacity: 0;
+          visibility: hidden;
+        }
+      }
+
+      #home , #transaction, #bankcard, #loan,#reward, #crypto, #assistant, #setting, #profileblock,#toggleassistant{
+        visibility: hidden;
+      }
+
+      #profileblock{
+        z-index: 1000;
+      }
+    </style>
+  </head>
+
+
+
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="totalbox">
+      <div id="loginform"></div>
+      <div id="registerform"></div>
+    </div>
+    <div id="cover"></div>
+    <div id="notification">Please Register</div>
+    <div id="home"></div>
+    <div id="transaction"></div>
+    <div id="bankcard"></div>
+    <div id="loan"></div>
+    <div id="reward"></div>
+    <div id="crypto"></div>
+    <div id="assistant"></div>
+    <div id="setting"></div>
+    <div id="profileblock"></div>
+    <div id="toggleassistant"></div>
+
+  </body>
+</html>

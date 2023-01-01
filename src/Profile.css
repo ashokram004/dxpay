@@ -1,0 +1,164 @@
+#profilepage{
+    position: absolute;
+    background: whitesmoke;
+    background-size: 100% 100%;
+    height: 1000px;
+    width: 1940px;
+    overflow-y:hidden;
+    display: flex;
+    padding-left: 300px;
+    padding-top: 130px;
+
+}
+#divActivites{
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 150px;
+    width: 450px;
+    height: 500px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background: radial-gradient(circle, rgba(74,9,93,1) 0%, rgba(20,6,73,1) 100%);
+}
+#proimg{
+    background-image: url(images/profile.png);
+    background-size: 100% 100%;
+}
+#profinfo{
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 100px;
+}
+#acc{
+    margin-top: 0px;
+    margin-left: 20px;
+    height: 240px;
+    width: 400px;
+    border-radius: 10px;
+}
+#tab22{
+    margin-left: 10px; 
+    padding-top: 10px;
+}
+#edit{
+    margin-left: 200px;
+    margin-top: -40px;
+}
+#pay{
+    margin-top: 16px;
+    margin-left: 20px;
+    height: 240px;
+    width: 400px;
+    border-radius: 10px;
+
+}
+#edit{
+    margin-left: 100px; height:40px;width:100px;
+     margin-top:20px; 
+     background: yellow;
+     cursor: pointer;
+     font-size: 20px;
+     border-radius: 10px;
+
+     
+}
+tr{
+    padding: 20px;
+}
+td{
+    padding: 5px;
+    color: aliceblue;
+}
+label{
+    color: aliceblue;
+}
+img{
+    border-radius: 180px;
+}
+#td1
+{
+    padding-left: 10px;
+}
+.td2{
+    padding-left: 10px;
+}
+#acc{
+    border: 2px solid black; float: left;background: radial-gradient(circle, rgba(74,9,93,1) 0%, rgba(20,6,73,1) 100%);
+}
+#pay{
+    border: 2px solid black; float: left;background: radial-gradient(circle, rgba(74,9,93,1) 0%, rgba(20,6,73,1) 100%);
+
+}
+#prolabel{
+    padding-top: 0px; margin-left: 10px; margin-bottom:20px; 
+    margin-top: -100px;
+}
+#light{
+    width:20px;height: 20px;
+}
+#proimg{
+    height: 250px; width: 450px;border-radius: 10px;
+}
+#billtd{
+     height:40px;
+     width:100px;
+     margin-top:0px; 
+     background: yellow;
+     margin-left: 100px;
+     cursor: pointer;
+     border-radius: 10px;
+     font-size: 15px;
+     font-weight: bold;
+}
+#label{
+    padding-top: 40px; margin-left: 10px; margin-bottom:20px
+}
+hr{
+    margin-left:10px;margin-right: 10px;
+}
+#acctd
+{
+     height:40px;width:100px;
+     margin-top:0px; 
+     background:  yellow;
+     margin-left: 85px;
+     cursor: pointer;
+     border-radius: 10px;
+     font-size: 15px;
+     font-weight: bold;
+
+
+}
+#shorttable{
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 1px solid transparent;
+}
+
+#shorttable td{
+    margin-left: 50px;
+}
+
+
+
+#tempprof{
+    position: absolute;
+    height: 700px;
+    width: 1200px;
+    background-color: yellow;
+    border-radius: 50px;
+    box-shadow: 5px 7px 5px 3px gray;
+}
+#profbackbt{
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    margin-left: 570px;
+    margin-top: 20px;
+    background: radial-gradient(circle, rgba(74,9,93,1) 0%, rgba(20,6,73,1) 100%);
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}

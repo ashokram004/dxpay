@@ -1,0 +1,106 @@
+#loginbox {
+    position: absolute;
+    border: 0px;
+    border-radius: 20px;
+    font-family:arial;
+    height:780px;
+    width:960px;
+    background: url(images/blue1.jpg);
+    background-size: 100% 100%;
+    padding-top: 190px;
+    left: 960px;
+}
+
+
+#logform{
+    position: absolute;
+    background: url(images/blue2.jpg);
+    background-size: 100% 100%;
+    top: 200px;
+    left: 130px;
+    width: 700px;
+    height: 450px;
+    border: 0px;
+    padding-top: 40px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 5px rgb(1, 0, 66);
+    transform: scale(0.8);
+    transition: 500ms;
+}
+
+
+#logform input{
+    width: 450px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 20px;
+    font: arial;
+    font-size: 25px;
+    background-color: azure;
+    margin-top: 10px;
+    margin-left: 110px;
+}
+
+
+
+
+#loginheader{
+    font: arial;
+    font-size: 50px;
+    color: whitesmoke;
+   
+    margin-left: 260px;
+    margin-bottom: 50px;
+    
+}
+
+#loginbutton{
+    margin-top: 20px;
+    margin-left: 260px;
+    height: 50px;
+    width: 150px;
+    background-color: lime;
+    border: none;
+    border-radius: 10px;
+    color:black;
+    font-size: 30px;
+    font-family: arial;
+}
+
+#loginbutton:hover{
+    cursor: pointer;
+    background-color: rgb(0, 218, 0);
+    color:white;
+}
+
+#slidelogin{
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 247px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: arial;
+    color:white;
+}
+#forgotpass{
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 270px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17spx;
+    font-family: arial;
+    color:white;
+}
+
+#slidelogin:hover , #forgotpass:hover{
+    cursor: pointer;
+    color:lime;
+}
