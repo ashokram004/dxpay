@@ -1,3 +1,6 @@
+live Demo : https://dxpay.netlify.app/
+
+
 Requirements: Nodejs
 
 Run "npx-create-react Xname" and then copy these contents to that Xname folder. This is for providing required node modules.
