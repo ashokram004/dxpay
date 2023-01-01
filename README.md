@@ -1,8 +1,6 @@
-# Getting Started with Create React App
+Requirements: Nodejs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+Run "npx-create-react Xname" and then copy these contents to that Xname folder. This is for providing required node modules.
 
 In the project directory, you can run:
 
